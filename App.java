@@ -16,7 +16,7 @@ public class App {
             }
             if (arr.length == 5) {
                 int num3 = Integer.parseInt(arr[4]);
-                if (num3 < 1 || num3 > 10) {
+                if (num3 < 0 || num3 > 10) {
                     System.out.println("Неверно введены данные");
                     System.exit(0);
                 }
